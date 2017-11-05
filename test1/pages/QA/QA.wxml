@@ -1,0 +1,9 @@
+<!--pages/QA/QA.wxml-->
+<view class="contract">
+  <view class="Renting Term">
+    <image width='375px' height='600px' mode='aspectFit' src='../../Image/借伞公约.jpg'> </image>
+  </view>
+  <button class="agree" ontap='agree'>
+    我同意
+  </button>
+</view>

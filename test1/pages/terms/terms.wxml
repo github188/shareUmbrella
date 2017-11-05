@@ -1,0 +1,14 @@
+<view class="contract">
+  <text class="content">
+    "lalala i am the text"
+  </text>
+  <checkbox class="I_Agree">
+    I agree this terms.
+  </checkbox>
+  
+  <input class='Disa_gree' type='text' placeholder='I have something to comment:'>
+  </input>
+  <button class="agree" loading='true'>
+    我同意
+  </button>
+</view>

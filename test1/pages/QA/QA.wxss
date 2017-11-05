@@ -1,0 +1,5 @@
+/* pages/QA/QA.wxss */
+.Renting Term{
+  width:375px;
+  height:600px;
+}

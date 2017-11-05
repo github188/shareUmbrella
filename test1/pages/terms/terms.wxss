@@ -1,0 +1,8 @@
+.content {
+  color: blue;
+  align-content: center;
+}
+.agree {
+  align-self: right;
+  width: 100px;
+}

@@ -1,0 +1,5 @@
+<!--pages/Donate/doante.wxml-->
+<text>pages/Donate/doante.wxml</text>
+<view class = "container">
+  捐赠页面
+</view>

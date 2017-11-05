@@ -1,0 +1,22 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 60rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.U_Display{
+  width: 80%;
+  height: 300rpx;
+  margin-left: 50rpx;
+  flex-direction: column;
+}
+.button{
+  position: center;
+  align-items: center
+}
+.copyright{
+  position: bottom;
+  float: right;
+}

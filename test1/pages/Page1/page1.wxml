@@ -1,0 +1,31 @@
+<!--logs.wxml-->
+<view class="all_button">
+  <swiper class="U_Display" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+      <block wx:for="{{movies}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+        </swiper-item>    
+      </block>    
+  </swiper>
+  <view class="button">
+    <!-- donate_button -->
+    <button type="primary" plain='true' ontap='donate' size='mini'> 捐 </button>
+  </view>
+  <view class="button">
+    <!-- return_button -->
+    <button type="primary" plain='true' ontap='return_b' size='mini'> 还 </button>
+  </view>
+  <view class="button">
+    <!-- rent_button --> 
+    <button type="primary" plain='true' ontap='rent' size='mini'> 借 </button>
+  </view>
+  <view class="button">
+    <!-- FAQ_button -->
+    <button type="primary" plain='true' ontap='FAQ' size='mini'> FAQ </button>
+  </view>
+  <view class="copyright">
+    <!-- Copyright_button -->
+    <button type="primary" plain='true' disabled='true' size='mini'> Copyright-2017-GPA </button>
+  </view>
+  
+</view>

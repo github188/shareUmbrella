@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Page1/page1",
+    "pages/donate/doante",
+    "pages/rent/rent",
+    "pages/return/return",
+    "pages/QA/QA",
+    "pages/success/success",
+    "pages/faliure/faliure",
+    "pages/terms/terms"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Page1/page1",
+        "text": "首页",
+        "iconPath": "Image/icon_seo.png",
+        "selectedIconPath": "Image/icon_seo_HL.png"
+      },
+      {
+        "pagePath": "pages/借伞公约/terms",
+        "text": "公约"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "Image/icon_speed.png",
+        "selectedIconPath": "Image/icon_speed_HL.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
